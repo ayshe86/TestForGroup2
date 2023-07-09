@@ -41,7 +41,7 @@ Expected: “Wooden spoon | Etsy”
         if(expectedTitle.equals(actualTitle)){
             System.out.println("Title verification PASSED!");
         }else {
-            System.out.println("Title verification FAILED!!! "+ actualTitle);
+            System.out.println("Title verification FAILED!!! ");
         }
 
     }
