@@ -43,6 +43,6 @@ Expected: “Wooden spoon | Etsy”
         }else {
             System.out.println("Title verification FAILED!!! ");
         }
-
+        driver.close();
     }
 }
