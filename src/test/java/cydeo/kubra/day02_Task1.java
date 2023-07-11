@@ -38,6 +38,7 @@ public class day02_Task1 {
         }else{
             System.out.println("Failed");
         }
+        System.out.println("Hello ");
 
         driver.close();
 
