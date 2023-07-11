@@ -26,6 +26,7 @@ public class day02_Task1 {
         WebElement googleSearchBox= driver.findElement(By.name("search_query"));
         googleSearchBox.sendKeys("wooden spoon"+ Keys.ENTER);
 
+      
         //4. Verify title:
         //Expected: “Wooden spoon | Etsy”
 
