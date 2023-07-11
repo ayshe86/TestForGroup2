@@ -40,6 +40,9 @@ public class day02_Task1 {
         }
         System.out.println("Hello ");
 
+        System.out.println("Ho");
+        System.out.println("Mello Mello");
+
         driver.close();
 
 
