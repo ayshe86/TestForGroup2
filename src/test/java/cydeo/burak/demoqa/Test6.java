@@ -28,5 +28,6 @@ public class Test6 {
         else noRadio.click();
 
         driver.close();
+
     }
 }
