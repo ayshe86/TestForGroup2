@@ -41,7 +41,7 @@ public class Test10 {
 
         Select select = new Select(oldStyle);
 
-        select.selectByIndex(2);//checking
+        select.selectByIndex(2);//checking of task
 
         List<WebElement> options = select.getOptions();
 
