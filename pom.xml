@@ -19,7 +19,7 @@
        <dependency>
            <groupId>org.seleniumhq.selenium</groupId>
            <artifactId>selenium-java</artifactId>
-           <version>3.141.59</version>
+           <version>4.8.1</version>
        </dependency>
 
 
@@ -29,12 +29,31 @@
            <artifactId>webdrivermanager</artifactId>
            <version>5.4.0</version>
        </dependency>
+
+       <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+       <dependency>
+           <groupId>org.testng</groupId>
+           <artifactId>testng</artifactId>
+           <version>7.7.1</version>
+           <scope>test</scope>
+       </dependency>
+       <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+       <dependency>
+           <groupId>com.github.javafaker</groupId>
+           <artifactId>javafaker</artifactId>
+           <version>1.0.2</version>
+       </dependency>
+
+
        <dependency>
            <groupId>org.testng</groupId>
            <artifactId>testng</artifactId>
            <version>7.8.0</version>
            <scope>test</scope>
        </dependency>
+
+
+
    </dependencies>
 
     
