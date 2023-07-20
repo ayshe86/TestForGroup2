@@ -41,7 +41,7 @@ public class Test10 {
 
         Select select = new Select(oldStyle);
 
-        select.selectByIndex(2);
+        select.selectByIndex(2);//checking
 
         List<WebElement> options = select.getOptions();
 
