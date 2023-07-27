@@ -1,6 +1,8 @@
-package practiceCydeo.day10;
+package cydeo.burak.practiceCydeo.day10;
 
 import com.github.javafaker.Faker;
+import cydeo.burak.utility.BrowserUtils;
+import cydeo.burak.utility.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -8,8 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utility.BrowserUtils;
-import utility.Driver;
+
 
 import java.util.Locale;
 

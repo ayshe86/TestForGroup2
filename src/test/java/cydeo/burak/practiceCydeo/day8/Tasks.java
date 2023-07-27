@@ -1,13 +1,14 @@
-package practiceCydeo.day8;
+package cydeo.burak.practiceCydeo.day8;
 
 import base.Base;
+import cydeo.burak.utility.ConfigurationReader;
+import cydeo.burak.utility.WebTableUtils;
 import org.apache.commons.compress.harmony.pack200.BandSet;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utility.ConfigurationReader;
-import utility.WebTableUtils;
+
 
 import java.security.Key;
 
@@ -90,7 +91,7 @@ public class Tasks extends Base {
         //TC #4: Google search
         //1- Open a chrome browser
         //2- Go to: https://google.com
-        String url=ConfigurationReader.getProperty("url");
+        String url= ConfigurationReader.getProperty("url");
         driver.get(url);
 
         //3- Write “apple” in search box

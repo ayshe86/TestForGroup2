@@ -1,14 +1,15 @@
-package practiceCydeo.day7;
+package cydeo.burak.practiceCydeo.day7;
 
 import base.Base;
+import cydeo.burak.utility.BrowserUtils;
+import cydeo.burak.utility.CRM_Utilities;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utility.BrowserUtils;
-import utility.CRM_Utilities;
+
 
 import java.util.ArrayList;
 import java.util.List;
