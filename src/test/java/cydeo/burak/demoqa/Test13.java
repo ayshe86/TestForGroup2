@@ -13,7 +13,7 @@ import utility.WebDriverFactory;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Test10 {
+public class Test13 {
 
     WebDriver driver;
 
@@ -35,40 +35,30 @@ public class Test10 {
     @Test
     public void selectedtest1() throws InterruptedException {
 
+        //Open "https://demoqa.com/select-menu" page
+        // Select each option of Old Style Select Menu
+        // Verify if each option is selected or not
+        // Tip:Use Select class and getOptions(),selectByVisibleText(),getFirstSelectedOption() methods
+
         driver.get("https://demoqa.com/select-menu");
 
         WebElement oldStyle = driver.findElement(By.id("oldSelectMenu"));
 
         Select select = new Select(oldStyle);
 
-        select.selectByIndex(2);
-
         List<WebElement> options = select.getOptions();
 
+
         for (WebElement option : options) {
-            Thread.sleep(1000);
+
             select.selectByVisibleText(option.getText());
+            //select.selectByIndex();
 
             String expected = option.getText();
             String actual = select.getFirstSelectedOption().getText();
+
             Assert.assertEquals(actual, expected);
+            //Assert.assertTrue((option.isSelected()));
         }
     }
-
-    @Test
-    public void selectedtest2() throws InterruptedException {
-
-        driver.get("https://demoqa.com/select-menu");
-
-        WebElement cars = driver.findElement(By.id("cars"));
-
-        Select select = new Select(cars);
-
-        select.selectByVisibleText("Saab");
-        String actual = select.getFirstSelectedOption().getText();
-        String expected = "Saab";
-
-        Assert.assertEquals(expected, actual);
-    }
-
 }
