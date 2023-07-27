@@ -1,4 +1,4 @@
-package practiceCydeo.day6;
+package cydeo.burak.practiceCydeo.day6;
 
 import base.Base;
 import org.openqa.selenium.Alert;
