@@ -55,5 +55,6 @@ public class Day10_T4_5_Scroll_Practice_ExtraHomeWorks {
         actions.moveToElement(homeLink).perform();
 
         Assert.assertTrue(homeLink.isDisplayed());
+        
     }
 }
